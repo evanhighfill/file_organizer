@@ -33,7 +33,7 @@ function moveOrCopy () {
             cmd=cp
             break
         else
-            echo "You've selected the wrong option dingus." 
+            echo "You've selected the wrong option." 
         fi
     done
 }
@@ -49,7 +49,7 @@ do
     if [ $response = 1 ] || [ $response = 2 ] || [ $response = 3 ]; then
         moveOrCopy
     else
-        echo "You've selected the wrong option dingus." 
+        echo "You've selected the wrong option." 
     fi
 
     if [ $response = 1 ]; then
